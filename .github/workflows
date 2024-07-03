@@ -1,1 +1,8 @@
-
+name: Hello world
+runs_on: ubuntu_latest
+on: 
+   push
+jobs:
+  hello-job:
+    - name: Echo text
+      run: echo "Hello, world!"
